@@ -1,5 +1,5 @@
 def main():
-    #explain program
+    # explain program
     print("This program creates and displays a spaced multiplication")
     print("and division table based on user input")
     print("=========================================")
@@ -16,14 +16,15 @@ def main():
     int(N1)
     int(N2)
     int(NX)
-    #display multiplication table column header
+    # display multiplication table column header
     print("                                                           Multiplication Table")
     for k in range(C1, C1+10*CX, CX):
-        print(k,end="\t")
+        print(k, end="\t")
     print("=========================================================================================")
     # display multiplicand
-    for j in range (C1, C1+10*CX, CX):
-         for i in range (N1,N2+NX,NX):
-            print(i*j,end="\t")
-        
+    for j in range(C1, C1+10*CX, CX):
+        for i in range(N1, N2 + NX, NX):
+            print(i*j, end="\t")
+
+
 main()
